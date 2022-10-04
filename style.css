@@ -224,3 +224,28 @@ body {
     top: 218%;
     transform: rotate(10deg);
 }
+
+.shadow {
+    position: absolute;
+    width: 520px;
+    height: 15px;
+    background: rgba(0, 0, 0, .2);
+    top: 73%;
+    left: 15%;
+    border-radius: 10px;
+    animation: scale 1s linear infinite;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
