@@ -175,4 +175,12 @@ body {
     box-shadow: -121 -20 0 0 black;
 }
 
-.handle {}
+.handle {
+    position: absolute;
+    width: 80px;
+    height: 7px;
+    background: black;
+    transform: rotate(346deg);
+    top: -26px;
+    left: -21px;
+}
