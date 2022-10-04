@@ -194,3 +194,33 @@ body {
     top: 32%;
     left: 38%;
 }
+
+.bottom-tube {
+    position: absolute;
+    width: 127px;
+    height: 7px;
+    background: black;
+    top: 60%;
+    right: 47%;
+    transform: rotate(355deg);
+    border-radius: 20px;
+}
+
+.bottom-tube::before,
+.bottom-tube::after {
+    position: absolute;
+    content: '';
+    width: 117px;
+    height: 2px;
+    background: black;
+}
+
+.bottom-tube::before {
+    top: -172%;
+    transform: rotate(349deg);
+}
+
+.bottom-tube::after {
+    top: 218%;
+    transform: rotate(10deg);
+}
