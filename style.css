@@ -172,7 +172,7 @@ body {
     background: black;
     border-radius: 20px;
     transform: skew(28deg);
-    box-shadow: -121 -20 0 0 black;
+    box-shadow: -121px -20px 0 0 black;
 }
 
 .handle {
@@ -183,4 +183,14 @@ body {
     transform: rotate(346deg);
     top: -26px;
     left: -21px;
+}
+
+.seat {
+    position: absolute;
+    height: 28px;
+    width: 57px;
+    background: black;
+    border-radius: 40%;
+    top: 32%;
+    left: 38%;
 }
